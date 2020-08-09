@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="colorBtn">#3D7FE4</color>
+    <color name="FragmentOneColor">#8A7D9CCC</color>
+    <color name="FragmentTwoColor">#8A89CC7D</color>
+    <color name="replaceBtnColor">#D56A6A</color>
+</resources>

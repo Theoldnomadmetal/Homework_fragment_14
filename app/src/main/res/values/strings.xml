@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Homework_fragment_14</string>
+    <string name="add_fragment">Add fragment</string>
+    <string name="replace_fragment">Replace Fragment</string>
+    <string name="error">У меня не получилось заставить функцию remove заработать.Делал как показывали. Использовал Интерфейс но ничего не вышло :(</string>
+    <string name="remove_fragment">Remove fragment</string>
+</resources>
