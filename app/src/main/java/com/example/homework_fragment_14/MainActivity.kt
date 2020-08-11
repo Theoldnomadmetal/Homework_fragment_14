@@ -9,6 +9,7 @@ class MainActivity : AppCompatActivity(), FragmentListener {
 
     private var containerOne: FrameLayout? = null
     private var btnAdd : Button? = null
+    val fragmentTwo = SecondFragment()
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -37,7 +38,7 @@ class MainActivity : AppCompatActivity(), FragmentListener {
     override fun changeFragment() {
         supportFragmentManager
             .beginTransaction()
-            .replace(R.id.containerOne,SecondFragment())
+            .replace(R.id.containerOne,fragmentTwo)
             .commit()
 
     }
@@ -45,7 +46,7 @@ class MainActivity : AppCompatActivity(), FragmentListener {
     override fun removeFragment() {
         supportFragmentManager
             .beginTransaction()
-            .remove(SecondFragment())
+            .remove(fragmentTwo)
             .commit()
     }
 
